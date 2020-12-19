@@ -1,0 +1,37 @@
+.intermezzo {
+  padding: 10px;
+  margin: 10px;
+  border: dashed;
+  border-width: medium;
+  border-color: #FFEA42;
+}
+
+.course-notes {
+  text-align: left;
+  margin-left: 10px;
+}
+
+/*Examples for absolute positioning*/
+
+.box-frame {
+  background-color: #FFEA42;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 50px;
+}
+
+.red-box {
+  background-color: #FF7A69;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+}
+
+.blue-box {
+  background-color: #E6A44E;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
